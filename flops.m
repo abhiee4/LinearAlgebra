@@ -1,5 +1,5 @@
 function y= flops(a)
-%Calculates flops for a full matrix a
+%Calculates and returns flops(floating operations) required to calculate determinant of a full matrix a
 %O(n)=n*O(n-1)+n+(n-1)
 
 b=0;
